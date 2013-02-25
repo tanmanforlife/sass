@@ -1,0 +1,26 @@
+/* style.scss */
+
+$main-color: #000000;
+
+/* Parent References */
+a{ 
+    color: $main-color; 
+    &:hover{ color:#000; } 
+    &:visited{ color: $main-color; }
+}
+
+/* Nesting */
+#navbar {
+    width:80%;
+    height: 23px;
+    ul { list-style-type:none; }
+    li {
+      float:left; margin-left:5px;
+      a{color:$main-color; font-weight:bold;}
+    }
+}
+
+
+
+
+

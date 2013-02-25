@@ -1,0 +1,21 @@
+/* style.scss */
+/* Parent References */
+a {
+  color: black; }
+  a:hover {
+    color: #000; }
+  a:visited {
+    color: black; }
+
+/* Nesting */
+#navbar {
+  width: 80%;
+  height: 23px; }
+  #navbar ul {
+    list-style-type: none; }
+  #navbar li {
+    float: left;
+    margin-left: 5px; }
+    #navbar li a {
+      color: black;
+      font-weight: bold; }
